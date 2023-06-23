@@ -1,0 +1,17 @@
+.content {
+  padding-top: 152px;
+  padding-left: 358px;
+  h2 {
+    color: #1e1584;
+    font-size: 40px;
+    font-family: Noto Sans;
+    font-weight: 700;
+    margin-left: 15px;
+  }
+  .filter_content {
+    max-width: 320px;
+    margin-top: 32px;
+    display: flex;
+    justify-content: space-between;
+  }
+}

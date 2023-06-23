@@ -1,4 +1,6 @@
 .headers{
+    position: fixed;
+    z-index: 1;
     max-width: 1286px;
     width: 100%;
     margin: 0 auto;
@@ -13,5 +15,5 @@
             margin-left: 20px;
         }
     }
-    
+
 }

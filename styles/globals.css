@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  
 }
 
 h1,
@@ -19,15 +20,11 @@ li {
 }
 
 .primary {
-  width: 84px;
-  height: 50px;
   background-color: #fff;
   border: 1px solid #1e1584;
-  border-radius: 188.13px;
+  border-radius: 10px;
 }
 .active {
-  width: 84px;
-  height: 50px;
   background: linear-gradient(
     180deg,
     #aca4ff 0%,
@@ -36,5 +33,6 @@ li {
   );
   border-radius: 10px;
   border: none;
+  color: white;
   margin-left: 20px;
 }

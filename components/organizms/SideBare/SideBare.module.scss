@@ -1,0 +1,66 @@
+.sidebare {
+  background: linear-gradient(180deg, #f9f9ff 0%, #ffffff 0%, #f2f1ff 100.05%);
+  border-radius: 12px;
+  width: 318px;
+  height: 840px;
+  position: fixed;
+  margin-top: 152px;
+  padding: 36px 18px;
+  a{
+    text-decoration: none;
+    li {
+      width: 278px;
+      height: 58px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 14px;
+      padding: 6.34146px;
+      background-color: rgba(114, 101, 251, 0.1);
+      border-radius: 14.7967px;
+    }
+  }
+  .info_analytics {
+    text-align: center;
+    margin: 30px 0px;
+  }
+  .default {
+    background-color: #fff;
+  }
+  .active {
+    border-radius: 14.797px;
+    color: white;
+    background: var(--purple-gradient, linear-gradient(180deg, #ACA4FF 0%, #7B6FFF 0.01%, #5242FF 99.98%));
+    }
+  .user {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    .user_info {
+      width: 128px;
+    }
+    .username {
+      font-family: "Noto Sans";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 22px;
+
+      /* Text */
+
+      color: #1e1584;
+    }
+    .work_user {
+      font-family: "Noto Sans";
+      font-style: normal;
+      font-weight: 300;
+      font-size: 14px;
+      line-height: 19px;
+      /* identical to box height */
+
+      /* Text dop */
+
+      color: #524e7d;
+    }
+  }
+}

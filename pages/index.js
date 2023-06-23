@@ -3,6 +3,7 @@ import Image from "next/image";
 import { Inter } from "@next/font/google";
 import styles from "@/styles/Home.module.css";
 import kotik from '../assets/kotik.jpeg'
+import Main from "@/components/templates/Main/Main";
 
 export default function Home() {
   return (
@@ -13,7 +14,7 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
+      <Main/>
     </>
   );
 }
